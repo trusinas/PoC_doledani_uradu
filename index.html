@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="files/style.css">
+
+<title>PoC pro dohledání úřadu ke službám VS</title>
+
+
+<link rel="icon" type="image/png" href="images/favicon.png" />
+
+</head>
+
+<body>
+
+<h1 class="title">PoC pro dohledání úřadu ke službám VS</h1>
+
+
+<p>Pro ukázku dvě služby:</p>
+<ul>
+<a href="U1122.html"><li>U1122 - <b>oznámení veřejné sbírky</b></li></a>
+<a href="U2297.html"><li>U2297 - <b>zařazení osoby do zvláštního způsobu tísňového volání</b></li></a>
+</ul>
+
+<h1>Info ke službám</h1>
+<p>Pro zjednodušení jsou vybrány služby, kde:</p>
+<ul>
+<li>existují data k adresám,</li>
+<li>je poskytovatelem (OVM) jen jedno OVM nebo kategorie OVM.</li>
+</ul>
+
+<h2>U1122 - oznámení veřejné sbírky</h2>
+<ul>
+<li>poskytovatelem jsou krajské úřady</li>
+<li>služby je místně příslušná dle sídla právnické osoby</li>
+</ul>
+<p>Pardubický kraj nevyplnil adresu, takže pro obce z tohoto kraje mapa nefunguje.</p>
+
+<h2>U2297 - zařazení osoby do zvláštního způsobu tísňového volání</h2>
+<ul>
+<li>poskytovatelem jsou hasičské záchranné sbory</li>
+<li>služba nemá místní příslušnost</li>
+</ul>
+<p>V rámci implementace počítáme s tím, že se na mapě nebudou zobrazovat všechny úřady (OVM), ale tři nejbližší dle GSP zařízení, nebo zadané adresy.</p>
+
+<h1>Použitá data</h1>
+<ul>
+<li>úkony</li>
+<li>pracoviště</li>
+<li>SO vazby</li>
+<li>opendata z CzP</li>
+</ul>
+
+</body>
+</html>

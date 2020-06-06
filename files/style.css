@@ -1,0 +1,35 @@
+h1 {
+  font-size: 24px;
+}
+.title {
+  font-size: 26px;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 16px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  padding: 8px 16px 16px 16px;
+}
+.l-page-layout__secondary {
+  position:fixed;
+  z-index:2;
+  overflow:auto;
+  width:18rem;
+  height:100vh;
+}
+.l-page-layout__main {
+  height:100vh;
+  margin-left:18rem;
+  padding: 8px 16px 16px 16px;
+}
